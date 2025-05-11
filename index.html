@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV - Quimet Bolantin Alvarez</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #e8f5e9);
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #1e3d59;
+    }
+    header h2 {
+      margin: 5px 0;
+      font-weight: 400;
+      color: #4caf50;
+    }
+    section {
+      margin-bottom: 25px;
+    }
+    section h3 {
+      border-left: 5px solid #4caf50;
+      padding-left: 10px;
+      color: #1e3d59;
+      margin-bottom: 10px;
+      font-size: 1.3em;
+    }
+    ul, p {
+      margin: 5px 0;
+    }
+    .info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .info div {
+      flex: 1 1 250px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .info i {
+      color: #4caf50;
+    }
+    .actions {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .actions a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      background-color: #4caf50;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .actions a:hover {
+      background-color: #388e3c;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+      header h1 {
+        font-size: 1.8em;
+      }
+      header h2 {
+        font-size: 1.2em;
+      }
+      .info {
+        flex-direction: column;
+        gap: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Quimet Bolantin Alvarez</h1>
+      <h2>Ingeniero en Robótica Industrial</h2>
+    </header>
+
+    <div class="info">
+      <div><i class="fas fa-phone"></i><strong>Teléfono:</strong> +52 55-8456-9549</div>
+      <div><i class="fas fa-envelope"></i><strong>Correo:</strong> quimet.bolantin.alvarez@gmail.com</div>
+      <div><i class="fas fa-map-marker-alt"></i><strong>Dirección:</strong> Lindavista, Gustavo A. Madero, Ciudad de México</div>
+    </div>
+
+    <section>
+      <h3><i class="fas fa-user"></i> Resumen Profesional</h3>
+      <p>Ingeniero en Robótica Industrial con habilidades en diseño mecánico, automatización y control eléctrico. Experiencia en programación de robots ABB y KUKA, variadores de frecuencia, CNC y metrología. Conocimientos en Python y Excel intermedio para análisis de datos y optimización de procesos. Apasionado por la innovación tecnológica y la mejora de procesos industriales.</p>
+    </section>
+
+    <section>
+      <h3><i class="fas fa-graduation-cap"></i> Educación</h3>
+      <p><strong>Ingeniería en Robótica Industrial</strong> | 2021 - Actualidad<br>Instituto Politécnico Nacional (ESIME Azcapotzalco)</p>
+      <p><strong>Técnico en Soporte y Mantenimiento de Equipos de Cómputo</strong> | 2017 - 2020<br>CBTIS 04, Tlaxcala</p>
+    </section>
+
+    <section>
+      <h3><i class="fas fa-cogs"></i> Habilidades y Conocimientos</h3>
+      <ul>
+        <li>Diseño mecánico: SolidWorks, AutoCAD, Mastercam</li>
+        <li>Automatización y control: PLC Siemens S7-1200, robots ABB y KUKA</li>
+        <li>Sistemas eléctricos: Control eléctrico, neumática e hidráulica</li>
+        <li>CNC y manufactura: Programación y operación de máquinas CNC</li>
+        <li>Metrología: Uso de herramientas de medición para control de calidad</li>
+        <li>Programación: Python (intermedio), Excel (intermedio)</li>
+        <li>Variadores de frecuencia: PowerFlex y SINAMICS</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3><i class="fas fa-language"></i> Idiomas</h3>
+      <p>Inglés: Intermedio</p>
+    </section>
+
+    <section>
+      <h3><i class="fas fa-certificate"></i> Cursos y Certificaciones</h3>
+      <ul>
+        <li>Automatización de cualquier proceso industrial (Constancia DC-3)</li>
+        <li>Controladores Lógicos Programables (PLC) Siemens S7-1200 (Constancia DC-3)</li>
+        <li>EP1 Instalaciones Eléctricas para Principiantes (Constancia DC-3)</li>
+        <li>Curso de SolidWorks</li>
+        <li>Programación de Robots KUKA y ABB</li>
+        <li>Programación de Variadores de Frecuencia (PowerFlex y SINAMICS)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3><i class="fas fa-project-diagram"></i> Proyectos</h3>
+      <p><strong>Automatización de banda transportadora con PLC Siemens S7-1200</strong> (2023)</p>
+      <ul>
+        <li>Programación y control de banda transportadora usando PLC Siemens S7-1200</li>
+        <li>Integración de sensores para detección y clasificación de objetos</li>
+        <li>Lógica de control para optimización del flujo del sistema</li>
+      </ul>
+
+      <p><strong>Diseño y construcción de un robot en SolidWorks</strong> (2024)</p>
+      <ul>
+        <li>Modelado CAD del robot con servomotores</li>
+        <li>Programación de cinemática directa, inversa y diferencial en MATLAB</li>
+        <li>Construcción física y validación funcional</li>
+      </ul>
+    </section>
+
+    <div class="actions">
+      <a href="#" onclick="window.print();"><i class="fas fa-download"></i> Descargar PDF</a>
+      <a href="https://tu-portfolio.com/quimet-cv" target="_blank"><i class="fas fa-share-alt"></i> Compartir Enlace</a>
+    </div>
+
+  </div>
+</body>
+</html>
